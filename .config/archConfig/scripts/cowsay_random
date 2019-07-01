@@ -1,3 +1,0 @@
-#!/bin/bash
-COW_PATH=/usr/share/cows
-fortune | command cowsay -f $(find $COW_PATH -name "*.cow" | sort -R | tail -n 1) 
